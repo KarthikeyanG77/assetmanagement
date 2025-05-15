@@ -1,0 +1,10 @@
+[02-May-2025 12:01:25 Europe/Berlin] PHP Warning:  session_set_cookie_params(): Cannot change session cookie parameters when session is active in C:\xampp\htdocs\ict\auth_check.php on line 15
+[02-May-2025 12:01:25 Europe/Berlin] PHP Notice:  session_start(): A session had already been started - ignoring in C:\xampp\htdocs\ict\auth_check.php on line 18
+[02-May-2025 12:01:25 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ict.users' doesn't exist in C:\xampp\htdocs\ict\auth_check.php:40
+Stack trace:
+#0 C:\xampp\htdocs\ict\auth_check.php(40): PDO->prepare('SELECT id, role...')
+#1 C:\xampp\htdocs\ict\manage_servicelog.php(17): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\ict\auth_check.php on line 40
+[02-May-2025 12:48:31 Europe/Berlin] PHP Notice:  session_start(): A session had already been started - ignoring in C:\xampp\htdocs\ict\request.php on line 3
+[02-May-2025 12:48:33 Europe/Berlin] PHP Notice:  session_start(): A session had already been started - ignoring in C:\xampp\htdocs\ict\request.php on line 3
